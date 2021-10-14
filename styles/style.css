@@ -1,0 +1,201 @@
+/* --FONTE-- */
+@font-face {
+    font-family: liniksans;
+    src: url(../font/LinikSans-Regular.ttf);
+  }
+
+/* --TUDO-- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --CORPO-- */
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* --CONTEÚDO PRINCIPAL-- */
+#main_top{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: liniksans;
+}
+
+h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.checkbox{
+    margin-top: 7px;
+}
+
+/* --FORMULÁRIO PRINCIPAL-- */
+#main-form{
+    left: 50%;
+    width: 700px;
+    position: absolute;
+    transform: translateX(-50%);
+    padding: 50px;
+    background-color: #252544ce;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form_group{
+    padding-bottom: 50px;
+}
+
+label{
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+input, select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input:focus{
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+
+.input_form{
+    width: 100%;
+}
+
+#input_form1{
+    background-color: #37af65;
+}
+
+#input_form1:hover{
+    cursor: pointer;
+}
+
+.checkbox{
+    width: 30px;
+}
+
+span{
+    font-size: 15px;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.form_span{
+    font-size: 20px;
+}
+
+textarea{
+    font-size: 15px;
+}
+
+/* --CABEÇALHO PRINCIPAL-- */
+#main_header{
+    background-color: black;
+    height: 70px;
+}
+
+/* --CABEÇALHO LOGO-- */
+#logo{
+    float: left;
+}
+
+.logo_image{
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* --CABEÇALHO TEXTO-- */
+#text_header{
+    float: left;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* --CABEÇALHO LINKS-- */
+#link_TH{
+    color: white;
+    text-decoration: none;
+}
+
+.link_header{
+    color: white;
+    float: right;
+    background-color: gray;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#link_header1{
+    margin-right: 50px;
+}
+
+#link_header2{
+    background-color: rgb(0, 197, 0);
+    color: black;
+}
+
+.link_header:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+#link_header2:hover{
+    background-color: rgb(0, 119, 0);
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #main-form{
+        width: fit-content;
+    }
+
+    .logo_image{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #main-form{
+        width: fit-content;
+    }
+
+    .logo_image{
+        padding: 5px;
+    }
+
+    #btn_mobile{
+        display: block;
+        background-color: #37af65;
+        color: white;
+        float: right;
+        padding: 10px;
+        margin-top: 15px;
+        margin-right: 15px;
+        font-family: liniksans;
+    }
+
+    .link_header{
+        display: none;
+    }
+}

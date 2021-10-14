@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Formulário Teste</title>
+</head>
+<body>
+    <div id="container">
+        <main>
+            <div id="main_top">
+                <h1>Formulário para teste</h1>
+                <p>Obrigado por nos ajudar a melhorar a plataforma</p>
+            </div>
+            <div id="main-form">
+                <form>
+                    <div class="form_group">
+                        <label id="name_label" for="name">Nome</label>
+                        <input type="text" name="name" id="name" class="input_form" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="email_label" for="email">E-mail</label>
+                        <input type="email" name="email" id="email" class="input_form" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="age_label" for="age">Idade<span>(opcional)</span></label>
+                        <input type="number" name="age" id="number" class="input_form" placeholder="Digite sua idade">
+                    </div>
+
+                    <div class="form_group">
+                        <label id="selection_label1" for="selection1">Qual opção descreve melhor sua função atual?</label>
+                        <select id="selectio_form1" class="input_form" name="selection1" id="selection1" required>
+                            <option disabled selected value>Selecione uma opção</option>
+                            <option value="student">Estudante</option>
+                            <option value="job">Trabalho integral</option>
+                            <option value="learner">Aprendizagem em tempo integral</option>
+                            <option value="preferNo">Prefiro não dizer</option>
+                            <option value="other">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="radio_label" for="radio">Você recomendaria Formulário para teste a um amigo?</label>
+                        <input type="radio" name="option" value="s" checked><span class="form_span">Sim</span><br>
+                        <input type="radio" name="option" value="t"><span class="form_span">Talvez</span><br>
+                        <input type="radio" name="option" value="n"><span class="form_span">Não</span>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="selection_label2" for="selection2">Qual é o seu recurso favorito do Formulário para teste?</label>
+                        <select id="selectio_form2" class="input_form" name="selection2" id="selection2" required>
+                            <option disabled selected value>Selecione uma opção</option>
+                            <option value="challenge">Desafios</option>
+                            <option value="project">Projetos</option>
+                            <option value="community">Comunidade</option>
+                            <option value="openS">Código aberto</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="name_label" for="name">Tem algo que você gostaria de ver melhorado?
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="1">Projetos de front-end
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="2">Projetos de back-end
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="3">Visualização de dados
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="4">Desafios
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="5">Comunidade
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="6">Vídeos
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="7">Wiki
+                        </label>
+                        <label>
+                        <input class="checkbox" type="checkbox" name="checkbox" value="8">Fórum
+                        </label>
+                    </div>
+
+                    <div class="form_group">
+                        <label id="name_label" for="name">Algum comentário ou sugestão?</label>
+                        <textarea name="textarea" id="textarea"  class="input_form" cols="30" rows="10" placeholder="Digite seu comentário aqui..."></textarea>
+                    </div>
+
+                    <div class="form_group">
+                        <input type="submit" id="input_form1" class="input_form">
+                    </div>    
+                </form>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
