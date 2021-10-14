@@ -18,7 +18,7 @@
 
 ## :clipboard: Sobre o Projeto
 
-Formulário para feedback de um possivel cliente ou aluno de escolas e universidades. Ele também vem acompanhado de um design moderno e totalmente flexível para qualquer tipo de aparelho!
+Formulário para feedback de um possível cliente ou aluno de escolas e universidades. Ele também vem acompanhado de um design moderno e totalmente flexível para qualquer tipo de aparelho!
 
 ## :computer: Tecnologias utilizadas
 
